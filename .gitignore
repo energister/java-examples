@@ -1,3 +1,9 @@
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries
+*.iml
+
 *.class
 
 # Mobile Tools for Java (J2ME)
