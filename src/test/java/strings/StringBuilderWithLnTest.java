@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class StringBuilderWithLnTests {
+public class StringBuilderWithLnTest {
     @Test
     public void test() {
         // Arrange

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.math.BigInteger;
 
-public class BigIntegerTests {
+public class BigIntegerTest {
     @Test
     public void convertFromLongAndBack() {
         BigInteger bi = BigInteger.valueOf(100L);

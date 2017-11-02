@@ -16,7 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class UnirestTests {
+public class UnirestTest {
     @Test
     public void getWithParameters() throws UnirestException {
         // Arrange

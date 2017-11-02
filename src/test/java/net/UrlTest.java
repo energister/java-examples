@@ -7,7 +7,7 @@ import java.net.URISyntaxException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class UrlTests {
+public class UrlTest {
     private enum Status { CREATED, PROCESSED }
 
     @Test
