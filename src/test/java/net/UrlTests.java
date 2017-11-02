@@ -18,9 +18,9 @@ public class UrlTests {
         // Act
         builder.addParameter("number", String.valueOf(5));
         builder.addParameter("enum", Status.CREATED.toString());
-        builder.addParameter("paramWithSpace", "some text: and commas");
+        builder.addParameter("paramWithSpace", "some text: and colon");
 
         // Assert
-        assertEquals("http://example.com/?number=5&enum=CREATED&paramWithSpace=some+text%3A+and+commas", builder.toString());
+        assertEquals("http://example.com/?number=5&enum=CREATED&paramWithSpace=some+text%3A+and+colon", builder.toString());
     }
 }
