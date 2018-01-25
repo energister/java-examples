@@ -33,5 +33,6 @@ public class BigDecimalTest {
         BigDecimal bd = new BigDecimal("1E+1");
 
         assertEquals("10", bd.toPlainString());
+        assertEquals("1E+1", bd.toString());
     }
 }
